@@ -5,19 +5,7 @@ import RecentSchedule from './RecentSchedule'
 
 const Home = () => {
 
-    //     const videoCards = [...document.querySelectorAll(".video-card")];
-
-    // videoCards.forEach((item) => {
-    //   item.addEventListener("mouseover", () => {
-    //     let video = item.children[1];
-    //     video.play();
-    //   });
-
-    //   item.addEventListener("mouseleave", () => {
-    //     let video = item.children[1];
-    //     video.pause();
-    //   });
-    // });
+    
     return (
         <div >
             {/* navbar start */}
@@ -38,35 +26,35 @@ const Home = () => {
                                 </div>
                                 <div className="carousel-inner">
                                     <div className="carousel-item active">
-                                        <img src="/assets/images/slider 1.PNG" className="d-block w-100 h-50" alt="img" />
+                                        <img src="/assets/images/slider1.PNG" className="d-block w-100 h-50" alt="img" />
                                         <div className="carousel-caption  d-md-block">
                                             <h5>loki</h5>
                                             <p>The mercurial villain Loki resumes his role as the God of Mischief in a new series that takes place after the events of Avengers Endgame.</p>
                                         </div>
                                     </div>
                                     <div className="carousel-item">
-                                        <img src="/assets/images/slider 2.PNG" className="d-block w-100 h-50" alt="img" />
+                                        <img src="/assets/images/slider2.PNG" className="d-block w-100 h-50" alt="img" />
                                         <div className="carousel-caption  d-md-block">
                                             <h5>falcon and the winter soldier</h5>
                                             <p>Following the events of Avengers: Endgame, Sam Wilson and Bucky Barnes team up in a global adventure that tests their abilities and their patience.</p>
                                         </div>
                                     </div>
                                     <div className="carousel-item">
-                                        <img src="/assets/images/slider 3.PNG" className="d-block w-100 h-50" alt="img" />
+                                        <img src="/assets/images/slider3.PNG" className="d-block w-100 h-50" alt="img" />
                                         <div className="carousel-caption  d-md-block">
                                             <h5>wanda vision</h5>
                                             <p>Living idealized suburban lives, super-powered beings Wanda and Vision begin to suspect that everything is not as it seems.</p>
                                         </div>
                                     </div>
                                     <div className="carousel-item">
-                                        <img src="/assets/images/slider 4.PNG" className="d-block w-100 h-50" alt="img" />
+                                        <img src="/assets/images/slider4.PNG" className="d-block w-100 h-50" alt="img" />
                                         <div className="carousel-caption  d-md-block">
                                             <h5>raya and the last dragon</h5>
                                             <p>Raya, a warrior, sets out to track down Sisu, a dragon, who transferred all her powers into a magical gem which is now scattered all over the kingdom of Kumandra, dividing its people.</p>
                                         </div>
                                     </div>
                                     <div className="carousel-item">
-                                        <img src="/assets/images/slider 5.PNG" className="d-block w-100 h-50" alt="img" />
+                                        <img src="/assets/images/slider5.PNG" className="d-block w-100 h-50" alt="img" />
                                         <div className="carousel-caption  d-md-block">
                                             <h5>luca</h5>
                                             <p>Set in a beautiful seaside town on the Italian Riviera, the original animated feature is a coming-of-age story about one young boy experiencing an unforgettable summer filled with gelato, pasta and endless scooter rides.</p>
