@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar'
 import RecentSchedule from './RecentSchedule'
-
+import ReactPlayer from "react-player";
 
 const Home = () => {
 
@@ -16,7 +16,7 @@ const Home = () => {
             <div className='bg-dark'>
                     {/* carousel start */}
                         <div >
-                            <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
+                            <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
                                 <div className="carousel-indicators">
                                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -78,23 +78,28 @@ const Home = () => {
 
                         <div className="video-card" >
                             <img src="../assets/images/disney.PNG" className="video-card-image" alt="show" />
-                            <video src="../assets/videos/disney.mp4" className="card-video"></video>
+                      
+                            <ReactPlayer url="./assets/videos/disney.mp4" playing={true}  loop={true}   muted={true}  width="100%" height="100%"/>
                         </div>
                         <div className="video-card">
                             <img src="../assets/images/pixar.PNG" className="video-card-image" alt="show" />
-                            <video src="../assets/videos/pixar.mp4" className="card-video"></video>
+                          
+                            <ReactPlayer url="./assets/videos/pixar.mp4" playing={true}  loop={true}   muted={true}  width="100%" height="100%" />
                         </div>
                         <div className="video-card">
                             <img src="../assets/images/geographic.PNG" className="video-card-image" alt="show" />
-                            <video src="../assets/videos/geographic.mp4" className="card-video"></video>
+                        
+                            <ReactPlayer url="./assets/videos/geographic.mp4" playing={true}  loop={true}   muted={true}  width="100%" height="100%"/>
                         </div>
                         <div className="video-card">
                             <img src="../assets/images/marvel.PNG" className="video-card-image" alt="show" />
-                            <video src="../assets/videos/marvel.mp4" className="card-video"></video>
+                          
+                            <ReactPlayer url="./assets/videos/marvel.mp4" playing={true}  loop={true}   muted={true}  width="100%" height="100%"/>
                         </div>
                         <div className="video-card">
                             <img src="../assets/images/star-wars.PNG" className="video-card-image" alt="show" />
-                            <video src="../assets/videos/star-war.mp4" className="card-video"></video>
+                          
+                            <ReactPlayer url="./assets/videos/star-war.mp4" playing={true}  loop={true}   muted={true}  width="100%" height="100%"/>
                         </div>
                     </div>
                       {/* <!-- Video Cards end --> */}
